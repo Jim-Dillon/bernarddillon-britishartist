@@ -184,22 +184,12 @@ h4 {
     background-color: #1B2A41;
     color: white;
     text-decoration: none;
-    padding: 18px 30px;
-    /* margin-top: 32px; */
+    padding: 18px 30px;   
 }
-
-.home-image-container {
-    /* margin-right: 176px; */
-}
-
 
 .home-works-section {
     height: 916px;
     background-color: #EBF0F2;
-    /* margin: 0 auto; */
-}
-
-.home-works-container {
     
 }
 
@@ -219,10 +209,6 @@ h4 {
     margin-bottom: 60px;
 }
 
-.works-image {
-    
-}
-
 .view-gallery-button-container {
     max-width: 184px;
     margin: 0 auto;
@@ -234,7 +220,6 @@ h4 {
     color: white;
     text-decoration: none;
     padding: 18px 30px;
-
 }
 
 
@@ -266,6 +251,8 @@ h4 {
     line-height: 35px; 
 }
 
+
+
 /* ABOUT PAGE */
 
 .about-section {
@@ -287,6 +274,7 @@ h4 {
 }
 
 
+
 /* FAMILY PAGE */
 
 .family-page-container {
@@ -303,7 +291,6 @@ h4 {
 
 .bern-mu-photo {
     width: 300px;
-    /* margin-left: 43px; */
 }
 
 .bern-caption {
@@ -317,7 +304,6 @@ h4 {
     margin: 0 auto;
     max-width: 805px;
     margin-top: 30px;
-    /* margin-right: 10px; */
 }
 
 .family-row2-container {
@@ -351,7 +337,6 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    
 }
 
 
@@ -384,16 +369,6 @@ h4 {
 
 .hal-caption {
     width: 140px;
-}
-
-
-
-.tree-mark {
-    /* padding-left: -55px; */
-}
-
-.tree-jamie {
-    /* padding-left: -55px; */
 }
 
 .family-row4-section {
