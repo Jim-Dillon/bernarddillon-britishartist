@@ -46,6 +46,15 @@ h4 {
     padding-right: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+
 /* TOP BANNER */
 
 .top-banner {
@@ -60,6 +69,13 @@ h4 {
 .banner {
     font-family: 'Cormorant', serif;
     font-size: 59px;
+    width: 700px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner:visited {
+    color: white;
 }
 
 .nav {
@@ -435,7 +451,7 @@ h4 {
 /* FAMILY PAGE */
 
 .family-page-container {
-    height: 1620px;
+    height: 1640px;
     max-width: 1350px;
     padding-left: 20px;
     margin: 0 auto;
