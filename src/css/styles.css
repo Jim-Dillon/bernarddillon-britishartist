@@ -153,7 +153,7 @@ h4 {
 
 .home-about-container {
     max-width: 1087px;
-    height: 980px;
+    height: 950px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -188,7 +188,7 @@ h4 {
 }
 
 .home-works-section {
-    height: 916px;
+    height: 870px;
     background-color: #EBF0F2;
     
 }
@@ -203,11 +203,7 @@ h4 {
     margin-bottom: 68px;
 }
 
-.works-image-container {
-    max-width: 631px;
-    margin: 0 auto;
-    margin-bottom: 60px;
-}
+
 
 .view-gallery-button-container {
     max-width: 184px;
@@ -221,6 +217,64 @@ h4 {
     text-decoration: none;
     padding: 18px 30px;
 }
+
+
+
+/* homepage carousel */
+
+.home__carousel {
+    overflow: hidden;
+    max-width: 700px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+
+.home__carousel__item {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.home__carousel .home__carousel__item,
+.home__carousel .home__carousel__item--hidden {
+    display: none;
+}
+
+.home__carousel .home__carousel__item img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.home__carousel .home__carousel__item--visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+}
+
+.home__carousel .home__carousel__actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home__carousel .home__carousel__actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #ccd6e2;
+}
+
+
+
+
+
 
 
 /* AWARDS PAGE */
@@ -381,7 +435,7 @@ h4 {
 /* FAMILY PAGE */
 
 .family-page-container {
-    height: 1600px;
+    height: 1620px;
     max-width: 1350px;
     padding-left: 20px;
     margin: 0 auto;

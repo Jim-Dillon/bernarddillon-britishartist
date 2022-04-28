@@ -32,8 +32,21 @@ title: Home
     
         <h2 class="recent-works-title" >Recent works</h2>
 
-        <div class="works-image-container">
-            <img src="/img/35 Ship painting.jpg" alt="Ship painting" class="works-image">
+        <div class="home__carousel">
+            <div class="home__carousel__item home__carousel__item--visible">
+                <img src="/img/35 Ship painting.jpg" alt="Ship painting" class="works-image">
+            </div>
+            <div class="home__carousel__item">
+                <img src="/img/43 St Albans pub painting.jpg" alt="" class="st-albans-image">
+            </div>
+            <div class="home__carousel__item">
+                <img src="/img/11 Barn painting detail.jpg" alt="" class="island-painting">
+            </div>
+
+            <div class="home__carousel__actions">
+                <button id="home__carousel_button--prev" aria-label="previous slide"><</button>
+                <button id="home__carousel_button--next" aria-label="next slide">></button>
+            </div>            
         </div>
 
         <div class="view-gallery-button-container">
@@ -42,3 +55,50 @@ title: Home
 
     </div>    
 </div>
+
+<script>
+
+    let slidePosition = 0;
+    const slides = document.getElementsByClassName('home__carousel__item');
+    const totalSlides = slides.length;
+
+    document. 
+        getElementById('home__carousel_button--next')
+        .addEventListener("click", function() {
+            moveToNextSlide();
+        });
+    document. 
+        getElementById('home__carousel_button--prev')
+        .addEventListener("click", function() {
+            moveToPrevSlide();
+        });
+
+    function updateSlidePosition() {
+        for (let slide of slides) {
+            slide.classList.remove('home__carousel__item--visible');
+            slide.classList.add('home__carousel__item--hidden');
+        }
+
+        slides[slidePosition].classList.add('home__carousel__item--visible');
+    }  
+
+    function moveToNextSlide() {
+        if (slidePosition == totalSlides - 1) {
+            slidePosition = 0;
+        } else {
+            slidePosition++;
+        }
+        updateSlidePosition();
+    }
+
+    function moveToPrevSlide() {   
+        if (slidePosition == 0) {
+            slidePosition = totalSlides - 1;
+        } else {
+            slidePosition--;
+        }
+        updateSlidePosition();
+    }
+    
+</script>
+
