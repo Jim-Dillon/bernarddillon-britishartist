@@ -288,11 +288,6 @@ a {
 }
 
 
-
-
-
-
-
 /* AWARDS PAGE */
 
 .awards-section {
@@ -460,6 +455,7 @@ a {
 .family-row1-container {
     max-width: 300px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .bern-mu-photo {
