@@ -153,7 +153,7 @@ h4 {
 
 .home-about-container {
     max-width: 1087px;
-    height: 1000px;
+    height: 980px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -277,7 +277,82 @@ h4 {
     font-weight: 400;
     width: 864px;
     margin: 0 auto; 
+    margin-bottom: 50px;
     line-height: 35px;
+}
+
+/* carousel */
+
+.carousel {
+    overflow: hidden;
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel__item {
+    margin: 0 auto;
+    width: 430px;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+    display: none;
+}
+
+.carousel .carousel__item img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.carousel .carousel__item--visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+}
+
+.carousel .carousel__actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel .carousel__actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+/* .carousel .carousel__actions button#carousel_button--prev {
+    margin-left: 20px;
+}
+
+.carousel .carousel__actions button#carousel_button--next {
+    margin-right: 20px;
+} */
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: opacity linear;
+    }
+}
+
+.art-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    /* width: 420px; */
 }
 
 
@@ -346,7 +421,35 @@ h4 {
     font-size: 16px;
     font-weight: 400;
     width: 165px;
+    margin-bottom: 0px;
 } 
+
+.tree-steve {
+    border: 2px solid #30D5C8;
+    padding: 18px 18px;
+}
+
+.steve-caption {
+    color: #30D5C8;
+}
+
+.tree-julie {
+    border: 2px solid #0D3470;
+    padding: 18px 18px;
+}
+
+.julie-caption {
+    color: #0D3470;
+}
+
+.tree-glyn {
+    border: 2px solid #0974ED;
+    padding: 18px 18px;
+}
+
+.glyn-caption {
+    color: #0974ED;
+}
 
 .row2-photo {
     width: 220px;
@@ -358,37 +461,48 @@ h4 {
 }  
 
 .tree-ant {
-    padding-right: 5px;
+    padding: 10px 10px;
+    margin-right: 3px;
+    border: 2px solid #30D5C8;
 }
 
 .tree-mark {
-    padding-right: 5px;
-    padding-left: 5px;
-
+    padding: 10px 10px;
+    margin-right: 3px;
+    border: 2px solid #30D5C8;
 }
 
 .tree-jamie {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 10px 10px;
+    margin-right: 7px;
+    border: 2px solid #30D5C8;
 }
 
 .tree-emily {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 10px 10px;
+    margin-right: 3px;
+    margin-left: 7px;
+    border: 2px solid #0D3470;
 }
 
 .tree-dan {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 10px 10px;
+    margin-right: 7px;
+    margin-left: 3px;
+    border: 2px solid #0D3470;
 }
 
 .tree-ro {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 10px 10px;
+    margin-right: 3px;
+    margin-left: 7px;
+    border: 2px solid #0974ED;
 }
 
 .tree-hal {
-    padding-left: 5px;
+    padding: 10px 10px;
+    margin-left: 3px;
+    border: 2px solid #0974ED;
 }
 
 .row3-photo {
@@ -399,22 +513,27 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 0px;
 }
 
 .ant-caption {
     width: 150px;
+    color: #30D5C8;
 }
 
 .mark-caption {
     width: 130px;
+    color: #30D5C8;
 }
 
 .jamie-caption {
     width: 120px;
+    color: #30D5C8;
 }
 
 .emily-caption {
     width: 150px;
+    color: #1B2A41;
 }
 
 .dan-caption {
@@ -422,14 +541,17 @@ h4 {
     font-size: 14px;
     font-weight: 400;
     width: 150px;
+    color: #1B2A41;
 }
 
 .ro-caption {
     width: 140px;
+    color: #2273cf;
 }
 
 .hal-caption {
     width: 140px;
+    color: #2273cf;
 }
 
 .family-row4-section {
@@ -440,6 +562,11 @@ h4 {
 
 .ant-kids-container {
     margin-right: 97px;
+    color: #5f7083;
+}
+
+.mark-kids-container {
+    color: #8098b4;
 }
 
 .row4-caption {
