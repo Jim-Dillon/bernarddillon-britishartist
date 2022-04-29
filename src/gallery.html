@@ -26,12 +26,13 @@ title: The Gallery
         </div>
 
         <div class="carousel">
+            <div class="carousel__track-container">
             <div class="carousel__item carousel__item--visible">
                 <img src="/img/02 Bern Sr. drawing.jpg" alt="">
                 <p class="art-caption">A portrait of the artist's father, Bernard Francis Dillon Snr., drawn in 1973</p>
             </div>
             <div class="carousel__item">
-                <img src="/img/03 Life Drawing.jpg" alt="">
+                <img src="/img/03 Life Drawing.jpg" alt="" class="life-drawing">
                 <p class="art-caption">A sample of Dillon’s student work from sixty-two years ago.</p>
             </div>
             <div class="carousel__item">
@@ -40,11 +41,11 @@ title: The Gallery
             </div>
             <div class="carousel__item">
                 <img src="/img/05 Bishop sketch.jpg" alt="">
-                <p class="art-caption">The artist’s first preliminary composition sketch of the Right Rev’ Dr., Alan Smith, 10th. Bishop of St. Albans, before embarking on the painted portrait.</p>
+                <p class="art-caption caption-5">The artist’s first preliminary composition sketch of the Right Rev’ Dr., Alan Smith, 10th. Bishop of St. Albans, before embarking on the painted portrait.</p>
             </div>
             <div class="carousel__item">
-                <img src="/img/06 Bishop finished.jpg" alt="">
-                <p class="art-caption">The finished portrait. Oil on canvas 30″ x 24″</p>
+                <img src="/img/06 Bishop finished.jpg" alt="" class="bishop-painting">
+                <p class="art-caption caption-6">The finished portrait. Oil on canvas 30″ x 24″</p>
             </div>
             <div class="carousel__item">
                 <img src="/img/07 Bishop painting presentation.jpg" alt="">
@@ -207,52 +208,10 @@ title: The Gallery
                 <button id="carousel_button--next" aria-label="next slide">></button>
             </div>
         </div>
+        </div>
     </div>
 
 </div>    
 
-<script> 
-    
-    let slidePosition = 0;
-    const slides = document.getElementsByClassName('carousel__item');
-    const totalSlides = slides.length; 
 
-    document. 
-        getElementById('carousel_button--next')
-        .addEventListener("click", function() {
-            moveToNextSlide();
-        });
-    document. 
-        getElementById('carousel_button--prev')
-        .addEventListener("click", function() {
-            moveToPrevSlide();
-        });    
-
-    function updateSlidePosition() {
-        for (let slide of slides) {
-            slide.classList.remove('carousel__item--visible');
-            slide.classList.add('carousel__item--hidden');
-        }
-
-        slides[slidePosition].classList.add('carousel__item--visible');
-    }    
-    
-    function moveToNextSlide() {
-        if (slidePosition == totalSlides - 1) {
-            slidePosition = 0;
-        } else {
-            slidePosition++;
-        }
-        updateSlidePosition();
-    }
-
-    function moveToPrevSlide() {   
-        if (slidePosition == 0) {
-            slidePosition = totalSlides - 1;
-        } else {
-            slidePosition--;
-        }
-        updateSlidePosition();
-    }
-
-</script>
+<script src="/js/carousel.js"></script>
