@@ -7,22 +7,31 @@ title: Home
 
 <div class="home-about-section">
 
-    <h1>{{ site_title }}</h1>
+    <div class="top-header-container">
+        <h1 class="top-header">{{ site_title }}</h1>
+    </div>
+
     <h3>BRITISH ARTIST</h3>
 
     <div class="home-about-container">
+        
+        <div class="home-image-container">
+            <img src="/img/Home Image.jpg" alt="Self Portrait" class="home-image">
+        </div>
+
         <div class="home-about-content">
 
             <h2 class="about-title">About</h2>
 
             <p class="home-words">BRITISH ARTIST, Bernard Francis Dillon, was born in Paddington, London, during August 1940. His mother was from the mining valleys of South Wales whilst his father was a Londoner of Irish descent.</p>
 
-            <a href="http://localhost:8080/about/" class="read-more-button">READ MORE</a>        
+            <div class="read-more-button-container">
+                <a href="http://localhost:8080/about/" class="read-more-button">READ MORE</a>  
+            </div>      
         </div>
 
-        <div class="home-image-container">
-            <img src="/img/Home Image.jpg" alt="Self Portrait" class="home-image">
-        </div>
+        
+
     </div> 
 </div>
 
@@ -62,49 +71,5 @@ title: Home
 
 <script src="/js/homecarousel.js"></script>
 
-<!-- <script>
 
-    let slidePosition = 0;
-    const slides = document.getElementsByClassName('home__carousel__item');
-    const totalSlides = slides.length;
-
-    document. 
-        getElementById('home__carousel_button--next')
-        .addEventListener("click", function() {
-            moveToNextSlide();
-        });
-    document. 
-        getElementById('home__carousel_button--prev')
-        .addEventListener("click", function() {
-            moveToPrevSlide();
-        });
-
-    function updateSlidePosition() {
-        for (let slide of slides) {
-            slide.classList.remove('home__carousel__item--visible');
-            slide.classList.add('home__carousel__item--hidden');
-        }
-
-        slides[slidePosition].classList.add('home__carousel__item--visible');
-    }  
-
-    function moveToNextSlide() {
-        if (slidePosition == totalSlides - 1) {
-            slidePosition = 0;
-        } else {
-            slidePosition++;
-        }
-        updateSlidePosition();
-    }
-
-    function moveToPrevSlide() {   
-        if (slidePosition == 0) {
-            slidePosition = totalSlides - 1;
-        } else {
-            slidePosition--;
-        }
-        updateSlidePosition();
-    }
-    
-</script> -->
 
