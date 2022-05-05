@@ -733,297 +733,10 @@ a {
 
 
 
-/* MOBILE DESIGN */
 
-@media only screen and (max-width:450px) {
 
-    /* NAV BAR */
 
-    .top-banner {
-        height: 70px;
-    }
-
-    .nav {
-        height: 50px;
-    }
-
-    .top-banner {
-        padding-left: 20px;
-        padding-top: 20px;
-    }
-
-    .banner a {
-        font-size: 24px;
-        font-family: 'Cormorant', serif;
-    }
-
-    .nav-buttons {
-        height: 50px;
-    }
-
-    .nav-buttons li {
-        font-size: 12px;
-        padding: 5px 10px 5px 10px;
-        height: 50px;
-    }
-
-    /* FOOTER */
-
-    .footer {
-        font-size: 11px;
-    }
-
-    /* HOME PAGE */
-
-    h1 {
-        font-size: 40px;
-        width: inherit;
-        margin-top: 40px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    .home-about-section {
-        height: 850px;
-    }
-
-    .home-about-container {
-        width: 100px;
-        display: initial;
-    }
-
-    .home-about-content {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 40px;
-    }
-
-    .home-image-container {
-        width: 270px;
-        margin: 0 auto;
-        padding-right: 0px;
-    }
-
-    .home-image {
-        width: 270px;
-    }
-
-    .about-title {
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .home-words {
-        font-size: 14px;
-    }
-
-    .read-more-button-container {
-        text-align: center;
-    }
-
-    .home-works-section {
-        height: 670px;
-    }
-
-    .recent-works-title {
-        font-size: 40px;
-    }
-
-    .home__carousel {
-        max-width: 95%;
-        height: 250px;
-        /* height: inherit; */
-    }
-
-    .home__carousel .home__carousel__item {
-        width: 250px
-    }
-
-    .home__carousel .home__carousel__item img {
-        object-fit: contain;
-        width: 250px
-    }
-
-    .home__carousel .home__carousel__actions {
-        top: 40%;
-    }
-
-
-    
-
-    /* AWARDS */
-
-    .awards-section {
-        margin-bottom: 50px;
-    }
-
-    .awards-container {
-        margin-top: 45px;
-    }
-
-    .awards-image-container {
-        width: 300px;
-        margin-bottom: 50px;
-    }
-
-    .awards-image {
-        width: 300px;
-    }
-
-    .awards-content {
-        font-size: 14px;
-    }
-
-    
-
-    /* ABOUT */
-
-    .about-section {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .about-content {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        font-size: 14px;
-    }
-
-    /* GALLERY */
-
-    .gallery-container {
-        margin-top: 45px;
-    }
-
-    .gallery-image-container {
-        margin-bottom: 50px;
-        width: 315px;
-    }
-
-    .gallery-main-image {
-        width: 315px;
-    }
-
-    .gallery-content {
-        font-size: 14px;
-        margin-bottom: 30px;
-    }
-
-    .carousel {
-        height: 788px;
-    }
-
-    .carousel .carousel__item {
-        width: 210px;
-    }
-
-    .carousel .carousel__item img {
-        max-width: 260px;
-    }
-
-    .carousel .carousel__actions {
-        top: 37%;
-    }
-
-    .caption-25 {
-        margin-top: 0px;
-    }
-
-    /* FAMILY */
-
-    .family-row1-container, .bern-mu-photo, .bern-caption {
-        width: 270px;
-    }
-
-    .bern-caption {
-        font-size: 14px;
-    }
-
-    .tree-steve, .tree-julie, .tree-glyn {
-        padding: 10px;
-        max-width: 105px;
-    }
-
-    .tree-julie {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-
-    .row2-photo {
-        width: 80px;
-    }
-
-    .row2-caption {
-        width: 80px;
-        font-size: 11px;
-    }
-
-    
-    .tree-ant, .tree-mark, .tree-jamie, .tree-emily, .tree-dan, .tree-ro, .tree-hal {
-        padding: 10px;
-        max-width: 103px;
-        margin-right: 0px;
-    }
-
-    .tree-ant, .tree-mark, .tree-jamie {
-        margin-bottom: 10px;
-    }
-
-    .tree-dan {
-        margin-top: 10px;
-        margin-left: 6px;
-    }
-
-    .tree-hal {
-        margin-top: 10px;
-        margin-left: 7px;
-    }
-
-    .steve-kids {
-        display: initial; 
-    }
-    
-    .julie-kids {
-        display: initial;
-        
-    }
-    
-    .glyn-kids {
-        display: initial;
-    }
-
-    .row3-photo {
-        width: 80px;
-        margin-right: 0px;
-    }  
-    
-    .row3-caption, .ant-caption, .dan-caption {
-        width: 80px;
-        font-size: 10px;
-    }
-
-
-    .ant-kids-container {
-        margin-right: 65px;
-    }
-
-    .row4-caption-parent {
-        font-size: 13px;
-    }
-
-    .row4-caption {
-        font-size: 11px;
-        width: 79px;
-    }
-    
-}
-
-
-/* LARGE LAPTOP VIEW */
+/* MEDIUM LAPTOP VIEW */
 
 @media screen and (max-width: 950px) and (min-width: 700px) {
 
@@ -1058,9 +771,9 @@ a {
     }
 
     .nav-buttons li {
-        height: 65px;
-        font-size: 16px;
-        padding: 23px 40px 23px;
+        height: 55px;
+        font-size: 13px;
+        padding: 25px 27px 16px;
     }
 
     .home-about-section {
@@ -1136,7 +849,7 @@ a {
 }
 
 
-/* MEDIUM LAPTOP VIEW */
+/* SMALL LAPTOP VIEW */
 
 @media screen and (max-width: 699px) and (min-width: 451px) {
 
@@ -1155,13 +868,13 @@ a {
     /* HOME PAGE  */
 
     .top-banner {
-        padding-left: 40px;
+        padding-left: 35px;
         padding-top: 25px;
         height: 80px;
     }
 
     .banner a {
-        font-size: 35px;
+        font-size: 30px;
     } 
 
     .home-works-section {
@@ -1304,11 +1017,306 @@ a {
     .carousel .carousel__actions {
         top: 37%;
     }
-
 }
 
 
-/* LARGE LAPTOP - FAMILY */ 
+
+/* MOBILE DESIGN */
+
+@media only screen and (max-width:450px) {
+
+    /* NAV BAR */
+
+    .top-banner {
+        height: 70px;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    .top-banner {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .banner a {
+        font-size: 24px;
+        font-family: 'Cormorant', serif;
+    }
+
+    .nav-buttons {
+        height: 50px;
+    }
+
+    .nav-buttons li {
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+        height: 50px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        font-size: 11px;
+    }
+
+
+    /* HOME PAGE */
+
+    h1 {
+        font-size: 40px;
+        width: inherit;
+        margin-top: 40px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .home-about-section {
+        height: 850px;
+    }
+
+    .home-about-container {
+        width: 100px;
+        display: initial;
+    }
+
+    .home-about-content {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+    }
+
+    .home-image-container {
+        width: 270px;
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .home-image {
+        width: 270px;
+    }
+
+    .about-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .home-words {
+        font-size: 14px;
+    }
+
+    .read-more-button-container {
+        text-align: center;
+    }
+
+    .home-works-section {
+        height: 670px;
+    }
+
+    .recent-works-title {
+        font-size: 40px;
+    }
+
+    .home__carousel {
+        max-width: 95%;
+        height: 250px;
+        /* height: inherit; */
+    }
+
+    .home__carousel .home__carousel__item {
+        width: 250px
+    }
+
+    .home__carousel .home__carousel__item img {
+        object-fit: contain;
+        width: 250px
+    }
+
+    .home__carousel .home__carousel__actions {
+        top: 40%;
+    }
+
+
+    /* AWARDS */
+
+    .awards-section {
+        margin-bottom: 50px;
+    }
+
+    .awards-container {
+        margin-top: 45px;
+    }
+
+    .awards-image-container {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .awards-image {
+        width: 300px;
+    }
+
+    .awards-content {
+        font-size: 14px;
+    }
+
+
+    /* ABOUT */
+
+    .about-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-content {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+
+
+    /* GALLERY */
+
+    .gallery-container {
+        margin-top: 45px;
+    }
+
+    .gallery-image-container {
+        margin-bottom: 50px;
+        width: 315px;
+    }
+
+    .gallery-main-image {
+        width: 315px;
+    }
+
+    .gallery-content {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .carousel {
+        height: 788px;
+    }
+
+    .carousel .carousel__item {
+        width: 210px;
+    }
+
+    .carousel .carousel__item img {
+        max-width: 260px;
+    }
+
+    .carousel .carousel__actions {
+        top: 37%;
+    }
+
+    .caption-25 {
+        margin-top: 0px;
+    }
+
+
+    /* FAMILY */
+
+    .family-row1-container, .bern-mu-photo, .bern-caption {
+        width: 270px;
+    }
+
+    .bern-caption {
+        font-size: 14px;
+    }
+
+    .tree-steve, .tree-julie, .tree-glyn {
+        padding: 10px;
+        max-width: 105px;
+    }
+
+    .tree-julie {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .row2-photo {
+        width: 80px;
+    }
+
+    .row2-caption {
+        width: 80px;
+        font-size: 11px;
+    }
+
+    
+    .tree-ant, .tree-mark, .tree-jamie, .tree-emily, .tree-dan, .tree-ro, .tree-hal {
+        padding: 10px;
+        max-width: 103px;
+        margin-right: 0px;
+    }
+
+    .tree-ant, .tree-mark, .tree-jamie {
+        margin-bottom: 10px;
+    }
+
+    .tree-dan {
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+
+    .tree-hal {
+        margin-top: 10px;
+        margin-left: 7px;
+    }
+
+    .steve-kids {
+        display: initial; 
+    }
+    
+    .julie-kids {
+        display: initial;
+        
+    }
+    
+    .glyn-kids {
+        display: initial;
+    }
+
+    .row3-photo {
+        width: 80px;
+        margin-right: 0px;
+    }  
+    
+    .row3-caption, .ant-caption, .dan-caption {
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .ant-kids-container {
+        margin-right: 65px;
+    }
+
+    .row4-caption-parent {
+        font-size: 13px;
+    }
+
+    .row4-caption {
+        font-size: 11px;
+        width: 79px;
+    }    
+}
+
+
+
+
+
+
+/* FAMILY PAGE VIEW */ 
+
+/* x large */
 
 @media screen and (max-width: 1290px) and (min-width: 999px) {
 
@@ -1358,7 +1366,9 @@ a {
     }
 }
 
-@media screen and (max-width: 999px) and (min-width: 700px) {
+/* large */
+
+@media screen and (max-width: 998px) and (min-width: 700px) {
 
     .family-page-container {
         height: 2100px;
@@ -1420,6 +1430,8 @@ a {
     }
 
 }
+
+/* medium */
 
 @media screen and (max-width: 699px) and (min-width: 550px) {
 
@@ -1513,8 +1525,11 @@ a {
 
     .row4-caption-parent, .row4-caption {
         font-size: 12px;
+        width: 80px;
     }
 }
+
+/* small */
 
 @media screen and (max-width: 549px) and (min-width: 451px) {
 
@@ -1603,10 +1618,25 @@ a {
     }
 
     .ant-kids-container {
-        margin-right: 40px;
+        margin-right: 45px;
     }
 
     .row4-caption-parent, .row4-caption {
         font-size: 11px;
+        width: 78px;
     }
+}
+
+
+
+
+
+/* NAV BAR RESIZE */
+
+@media screen and (max-width: 950px) and (min-width: 451px) {
+}
+
+@media only screen and (max-width:450px) {
+
+
 }
