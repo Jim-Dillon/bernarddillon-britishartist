@@ -882,8 +882,8 @@ a {
     /* ABOUT */
 
     .about-section {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .about-content {
@@ -1064,7 +1064,7 @@ a {
     }
 
     .home-about-section {
-        height: 900px;
+        height: 800px;
     }
 
     .home-about-container {
@@ -1424,7 +1424,7 @@ a {
 @media screen and (max-width: 699px) and (min-width: 550px) {
 
     .family-page-container {
-        height: 1900px;
+        height: 1840px;
     }
 
     .family-row1-container {
@@ -1519,7 +1519,7 @@ a {
 @media screen and (max-width: 549px) and (min-width: 451px) {
 
     .family-page-container {
-        height: 1900px;
+        height: 1650px;
     }
 
     .family-row1-container {
