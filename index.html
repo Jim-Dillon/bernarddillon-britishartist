@@ -1,19 +1,16 @@
----
-site_title: Bernard Francis Dillon
----
 
 <!doctype html> 
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ site_title }}</title>
+        <title>Bernard Francis Dillon</title>
         <link rel="stylesheet" href="/css/styles.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     </head>   
     <body>
         <div class="top-banner">
-            <h2 class="banner"><a href="http://localhost:8080/">{{ site_title }}</a></h2>
+            <h2 class="banner"><a href="http://localhost:8080/">Bernard Francis Dillon</a></h2>
             <div class="dropdown-header">
                 <a href="#" class="dropdown-icon">
                     <img src="../img/dropdown menu.png" alt="Dropdown Icon" class="dropdown-image">
@@ -52,7 +49,78 @@ site_title: Bernard Francis Dillon
             </ul>
         </div>    
 
-            {{ content | safe }}
+            
+
+
+<div class="home-about-section">
+
+    <div class="top-header-container">
+        <h1 class="top-header">Bernard Francis Dillon</h1>
+    </div>
+
+    <h3>BRITISH ARTIST</h3>
+
+    <div class="home-about-container">
+        
+        <div class="home-image-container">
+            <img src="/img/Home Image.jpg" alt="Self Portrait" class="home-image">
+        </div>
+
+        <div class="home-about-content">
+
+            <h2 class="about-title">About</h2>
+
+            <p class="home-words">BRITISH ARTIST, Bernard Francis Dillon, was born in Paddington, London, during August 1940. His mother was from the mining valleys of South Wales whilst his father was a Londoner of Irish descent.</p>
+
+            <div class="read-more-button-container">
+                <a href="http://localhost:8080/about/" class="read-more-button">READ MORE</a>  
+            </div>      
+        </div>
+
+        
+
+    </div> 
+</div>
+
+<div class="home-works-section">
+
+    <div class="home-works-container">
+    
+        <h2 class="recent-works-title" >Recent works</h2>
+
+        <div class="home__carousel">
+            <div class="home-carousel__track-container">
+            <div class="home__carousel__item home__carousel__item--visible">
+                <img src="/img/35 Ship painting.jpg" alt="Ship painting" class="works-image">
+            </div>
+            <div class="home__carousel__item">
+                <img src="/img/43 St Albans pub painting.jpg" alt="" class="st-albans-image">
+            </div>
+            <div class="home__carousel__item">
+                <img src="/img/11 Barn painting detail.jpg" alt="" class="island-painting">
+            </div>
+
+            <div class="home__carousel__actions">
+                <button id="home__carousel_button--prev" aria-label="previous slide"><</button>
+                <button id="home__carousel_button--next" aria-label="next slide">></button>
+            </div>            
+        </div>
+        </div>
+
+
+
+        <div class="view-gallery-button-container">
+            <a href="http://localhost:8080/gallery/" class="view-gallery-button">VIEW GALLERY</a>  
+        </div>
+        
+    </div>    
+</div>
+
+<script src="/js/homecarousel.js"></script>
+
+
+
+
         
         
         <footer>
