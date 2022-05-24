@@ -1792,6 +1792,10 @@ a {
     .dropdown-header {
         width: 40px;
     }
+
+    .dropdown-header:hover ul {
+        display: block;
+    }
     
     .dropdown-icon {
     
