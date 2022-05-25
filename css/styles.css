@@ -1320,11 +1320,15 @@ a {
 
     .row4-caption {
         font-size: 11px;
-        width: 120px;
+        width: 80px;
     }   
+
+    .mark-kids-container {
+        width: 80px;
+    }
     
     .kurtis-caption {
-        width: 65px;
+        width: 60px;
         /* height: 3rem; */
     }
 }
