@@ -1324,8 +1324,8 @@ a {
     }   
     
     .kurtis-caption {
-        width: 100px;
-        height: 3rem;
+        width: 65px;
+        /* height: 3rem; */
     }
 }
 
