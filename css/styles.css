@@ -640,15 +640,15 @@ a {
 
 .tree-emily {
     padding: 10px 10px;
-    margin-right: 3px;
+    margin-right: 4px;
     margin-left: 7px;
     border: 2px solid #0D3470;
 }
 
 .tree-dan {
     padding: 10px 10px;
-    margin-right: 7px;
-    margin-left: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
     border: 2px solid #0D3470;
 }
 
@@ -733,7 +733,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    width: 95px;
+    width: 100px;
 }
 
 .row4-caption-parent {
