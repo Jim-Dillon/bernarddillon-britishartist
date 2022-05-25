@@ -1805,6 +1805,10 @@ a {
     .dropdown-header:hover ul {
         display: block;
     }
+
+    .dropdown-header:hover a img {
+        display: none;
+    }
     
     .dropdown-icon {
     
@@ -1812,6 +1816,15 @@ a {
     
     .dropdown-image {
         width: 40px; 
+    }
+
+    .x-menu-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .x-menu-image:hover {
+        display: none;
     }
 
     .nav {
@@ -1829,7 +1842,7 @@ a {
         list-style: none;
         display: none;
         position: absolute;
-        margin-top: 13px;
+        margin-top: 6px;
         margin-left: -120px;
         width: 200px;
         height: 320px;
@@ -1858,4 +1871,13 @@ a {
         font-weight: 500;
     }
 
+}
+
+/* ANYTHING BIGGER THAN MOBILE */
+
+@media only screen and (min-width:451px) {
+
+    .x-menu-image {
+        display: none;
+    }
 }
