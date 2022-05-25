@@ -1321,7 +1321,11 @@ a {
     .row4-caption {
         font-size: 11px;
         width: 60px;
-    }    
+    }   
+    
+    .kurtis-caption {
+        width: 50px;
+    }
 }
 
 
