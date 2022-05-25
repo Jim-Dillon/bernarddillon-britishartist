@@ -1216,7 +1216,7 @@ a {
     }
 
     .carousel {
-        height: 833px;
+        height: 834px;
     }
 
     .carousel .carousel__item {
@@ -1756,7 +1756,7 @@ a {
         list-style: none;
         display: none;
         position: absolute;
-        margin-top: 20px;
+        margin-top: 19px;
         margin-left: -140px;
         width: 200px;
         height: 300px;
@@ -1820,7 +1820,7 @@ a {
         list-style: none;
         display: none;
         position: absolute;
-        margin-top: 14px;
+        margin-top: 13px;
         margin-left: -120px;
         width: 200px;
         height: 320px;
