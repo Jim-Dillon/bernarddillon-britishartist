@@ -417,6 +417,12 @@ a {
     height: auto;
     object-fit: contain;
     height: 580px;
+    transition: 1s;
+}
+
+.carousel .carousel__item img:hover {
+    filter: grayscale(100);
+    transform: scale(1.05);
 }
 
 .carousel .carousel__item--visible {
