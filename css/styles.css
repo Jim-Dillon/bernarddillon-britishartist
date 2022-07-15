@@ -421,7 +421,7 @@ a {
 }
 
 .carousel .carousel__item img:hover {
-    filter: grayscale(100);
+    filter: grayscale(52%);
     transform: scale(1.05);
 }
 
