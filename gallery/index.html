@@ -6,18 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bernard Francis Dillon</title>
         <link rel="stylesheet" href="/css/styles.css"/>
-        <link rel="stylesheet" href="/css/lightbox.css"/>
-        <script src="js/lightbox-plus-jquery.js"></script>
+        <link rel="stylesheet" href="/css/lightbox.min.css"/>
+        <script src="/js/lightbox-plus-jquery.min.js"></script>
+        <script src="/js/dropdown.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     </head>   
     <body>
         <div class="top-banner">
             <h2 class="banner"><a href="/">Bernard Francis Dillon</a></h2>
             <div class="dropdown-header">
-                <a href="#" class="dropdown-icon">
+                <a href="#" class="dropdown-icon" onclick="addDropdown()">
                     <img src="../img/dropdown menu.png" alt="Dropdown Icon" class="dropdown-image">
                 </a>
-                <img src="../img/xmenu.png" alt="Menu close" class="x-menu-image">
+                <a href="#" class="x-icon" onclick="removeDropdown()">
+                    <img src="../img/xmenu.png" alt="Menu close" class="x-menu-image">
+                </a>    
                 <ul class="dropdown-buttons">
                     <li class="dr-about-button">
                         <a href="/about/" class="dr-about-button-text">About</a>
@@ -78,177 +81,177 @@
         <div class="carousel">
             <div class="carousel__track-container">
             <div class="carousel__item carousel__item--visible">
-                <a href="/img/02 Bern Sr. drawing.jpg" data-lightbox="mygallery" data-title="Bern Sr"><img src="/img/02 Bern Sr. drawing.jpg" alt=""></a> 
+                <a href="/img/02 Bern Sr. drawing.jpg" data-lightbox="mygallery" data-title="A portrait of the artist's father, Bernard Francis Dillon Snr., drawn in 1973"><img src="/img/02 Bern Sr. drawing.jpg" alt=""></a> 
                 <p class="art-caption">A portrait of the artist's father, Bernard Francis Dillon Snr., drawn in 1973</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/03 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/03 Life Drawing.jpg" alt="" class="life-drawing"></a> 
+                <a href="/img/03 Life Drawing.jpg" data-lightbox="mygallery" data-title="A sample of Dillon’s student work from sixty-two years ago."><img src="/img/03 Life Drawing.jpg" alt="" class="life-drawing"></a> 
                 <p class="art-caption">A sample of Dillon’s student work from sixty-two years ago.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/04 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/04 Life Drawing.jpg" alt=""></a> 
+                <a href="/img/04 Life Drawing.jpg" data-lightbox="mygallery" data-title="Another example of his 1957 life drawings whilst being tutored by CAREL WEIGHT R.A."><img src="/img/04 Life Drawing.jpg" alt=""></a> 
                 <p class="art-caption">Another example of his 1957 life drawings whilst being tutored by CAREL WEIGHT R.A.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/05 Bishop sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/05 Bishop sketch.jpg" alt=""></a>
+                <a href="/img/05 Bishop sketch.jpg" data-lightbox="mygallery" data-title="The artist’s first preliminary composition sketch of the Right Rev’ Dr., Alan Smith, 10th. Bishop of St. Albans, before embarking on the painted portrait."><img src="/img/05 Bishop sketch.jpg" alt=""></a>
                 <p class="art-caption caption-5">The artist’s first preliminary composition sketch of the Right Rev’ Dr., Alan Smith, 10th. Bishop of St. Albans, before embarking on the painted portrait.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/06 Bishop finished.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/06 Bishop finished.jpg" alt="" class="bishop-painting"></a>
+                <a href="/img/06 Bishop finished.jpg" data-lightbox="mygallery" data-title="The finished portrait. Oil on canvas 30″ x 24″"><img src="/img/06 Bishop finished.jpg" alt="" class="bishop-painting"></a>
                 <p class="art-caption caption-6">The finished portrait. Oil on canvas 30″ x 24″</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/07 Bishop painting presentation.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/07 Bishop painting presentation.jpg" alt=""></a>
+                <a href="/img/07 Bishop painting presentation.jpg" data-lightbox="mygallery" data-title="The presentation of the painting."><img src="/img/07 Bishop painting presentation.jpg" alt=""></a>
                 <p class="art-caption">The presentation of the painting.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/08 Young Glyn sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/08 Young Glyn sketch.jpg" alt=""></a>
+                <a href="/img/08 Young Glyn sketch.jpg" data-lightbox="mygallery" data-title="A sketch of his youngest son, Glyn, made forty-two years ago in 1980."><img src="/img/08 Young Glyn sketch.jpg" alt=""></a>
                 <p class="art-caption">A sketch of his youngest son, Glyn, made forty-two years ago in 1980.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/09 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/09 Life Drawing.jpg" alt=""></a>
+                <a href="/img/09 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing class 1957-58"><img src="/img/09 Life Drawing.jpg" alt=""></a>
                 <p class="art-caption">Life drawing class 1957-58</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/10 watercolour sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/10 watercolour sketch.jpg" alt=""></a>
+                <a href="/img/10 watercolour sketch.jpg" data-lightbox="mygallery" data-title="A water colour sketch in preparation for a wall mural 16′ x 8′"><img src="/img/10 watercolour sketch.jpg" alt=""></a>
                 <p class="art-caption">A water colour sketch in preparation for a wall mural 16′ x 8′</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/11 Barn painting detail.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/11 Barn painting detail.jpg" alt=""></a>
+                <a href="/img/11 Barn painting detail.jpg" data-lightbox="mygallery" data-title="Detail of larger painting, 1966. Oil on board, 32″ x 23″"><img src="/img/11 Barn painting detail.jpg" alt=""></a>
                 <p class="art-caption">Detail of larger painting, 1966. Oil on board, 32″ x 23″</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/12 Muriel sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/12 Muriel sketch.jpg" alt=""></a>
+                <a href="/img/12 Muriel sketch.jpg" data-lightbox="mygallery" data-title="Sketch of Artist’s wife, Muriel. 1979"><img src="/img/12 Muriel sketch.jpg" alt=""></a>
                 <p class="art-caption">Sketch of Artist’s wife, Muriel. 1979</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/13 Fox painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/13 Fox painting.jpg" alt=""></a>
+                <a href="/img/13 Fox painting.jpg" data-lightbox="mygallery" data-title="L“Have they gone?” Exhibited in The Royal Society of Miniature Painters. 2012"><img src="/img/13 Fox painting.jpg" alt=""></a>
                 <p class="art-caption">“Have they gone?” Exhibited in The Royal Society of Miniature Painters. 2012</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/14 Cottage watercolour.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/14 Cottage watercolour.jpg" alt=""></a>
+                <a href="/img/14 Cottage watercolour.jpg" data-lightbox="mygallery" data-title="“Hopkin’s Cottage”, Watercolor. 1997"><img src="/img/14 Cottage watercolour.jpg" alt=""></a>
                 <p class="art-caption">“Hopkin’s Cottage”, Watercolor. 1997</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/15 Deer painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/15 Deer painting.jpg" alt=""></a>
+                <a href="/img/15 Deer painting.jpg" data-lightbox="mygallery" data-title="“Woodland Deer”, Oil on canvas, 30″ x 24″"><img src="/img/15 Deer painting.jpg" alt=""></a>
                 <p class="art-caption">“Woodland Deer”, Oil on canvas, 30″ x 24″</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/16 Island painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/16 Island painting.jpg" alt=""></a>
+                <a href="/img/16 Island painting.jpg" data-lightbox="mygallery" data-title="Detail from larger painting, 1997. Oil on Board"><img src="/img/16 Island painting.jpg" alt=""></a>
                 <p class="art-caption">Detail from larger painting, 1997. Oil on Board</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/17 Student sketches.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/17 Student sketches.jpg" alt=""></a>
+                <a href="/img/17 Student sketches.jpg" data-lightbox="mygallery" data-title="From student sketches, 1957-58"><img src="/img/17 Student sketches.jpg" alt=""></a>
                 <p class="art-caption">From student sketches, 1957-58</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/18 River painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/18 River painting.jpg" alt=""></a>
+                <a href="/img/18 River painting.jpg" data-lightbox="mygallery" data-title="“Snow by the river”. 1997 Watercolour"><img src="/img/18 River painting.jpg" alt=""></a>
                 <p class="art-caption">“Snow by the river”. 1997 Watercolour</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/19 Spaniel Inn.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/19 Spaniel Inn.jpg" alt=""></a>
+                <a href="/img/19 Spaniel Inn.jpg" data-lightbox="mygallery" data-title="Privately commissioned double sided sign. Oil on board. Exported to Californian clients in 1969."><img src="/img/19 Spaniel Inn.jpg" alt=""></a>
                 <p class="art-caption">Privately commissioned double sided sign. Oil on board. Exported to Californian clients in 1969.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/20 owl painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/20 owl painting.jpg" alt=""></a>
+                <a href="/img/20 owl painting.jpg" data-lightbox="mygallery" data-title="“Moonlight Supper” Oil on Board, 15.75″ x 11.5″. 2012"><img src="/img/20 owl painting.jpg" alt=""></a>
                 <p class="art-caption">“Moonlight Supper” Oil on Board, 15.75″ x 11.5″. 2012</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/21 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/21 Life Drawing.jpg" alt=""></a>
+                <a href="/img/21 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing sessions 1957-58"><img src="/img/21 Life Drawing.jpg" alt=""></a>
                 <p class="art-caption">Life drawing sessions 1957-58</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/22 Steve drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/22 Steve drawing.jpg" alt=""></a>
+                <a href="/img/22 Steve drawing.jpg" data-lightbox="mygallery" data-title="Unfinished pencil drawing of his eldest son, Steve, in 1978. He became a professional artist in 1979."><img src="/img/22 Steve drawing.jpg" alt=""></a>
                 <p class="art-caption">Unfinished pencil drawing of his eldest son, Steve, in 1978. He became a professional artist in 1979.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/23 watercolour sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/23 watercolour sketch.jpg" alt=""></a>
+                <a href="/img/23 watercolour sketch.jpg" data-lightbox="mygallery" data-title="A quick watercolour sketch in preparation for a larger painting. 1997"><img src="/img/23 watercolour sketch.jpg" alt=""></a>
                 <p class="art-caption">A quick watercolour sketch in preparation for a larger painting. 1997</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/24 Julie sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/24 Julie sketch.jpg" alt=""></a>
+                <a href="/img/24 Julie sketch.jpg" data-lightbox="mygallery" data-title="A pencil sketch of his only daughter, Julie, in 1979. She is now an advisor in the care and education of Autistic children."><img src="/img/24 Julie sketch.jpg" alt=""></a>
                 <p class="art-caption">A pencil sketch of his only daughter, Julie, in 1979. She is now an advisor in the care and education of Autistic children.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/25 Umbilical Strangulation.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/25 Umbilical Strangulation.jpg" alt=""></a>
+                <a href="/img/25 Umbilical Strangulation.jpg" data-lightbox="mygallery" data-title="“Umbilical Strangulation” Oil on board, 36″ x 20″. Exhibited in the 2013/14 Annual Exhibition held in the Municipal Art Gallery and Museum of Luton."><img src="/img/25 Umbilical Strangulation.jpg" alt=""></a>
                 <p class="art-caption caption-25">“Umbilical Strangulation” Oil on board, 36″ x 20″. Exhibited in the 2013/14 Annual Exhibition held in the Municipal Art Gallery and Museum of Luton.</p> 
                 <p class="art-caption caption-25">Owing to the popularity of Bernard F. Dillon’s occasional side step into the realms of Surrealism there are very few to exhibit here. The vast majority of them are already in private collections.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/26 Young Glyn sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/26 Young Glyn sketch.jpg" alt=""></a>
+                <a href="/img/26 Young Glyn sketch.jpg" data-lightbox="mygallery" data-title="A pencil sketch of his seven year old son, Glyn, in 1978. Eleven years later he became a professional artist, a graphic novelist and a costume designer"><img src="/img/26 Young Glyn sketch.jpg" alt=""></a>
                 <p class="art-caption">A pencil sketch of his seven year old son, Glyn, in 1978. Eleven years later he became a professional artist, a graphic novelist and a costume designer</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/27 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/27 Life Drawing.jpg" alt=""></a>
+                <a href="/img/27 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life studies, drawn at Hammersmith College of Art, in 1958."><img src="/img/27 Life Drawing.jpg" alt=""></a>
                 <p class="art-caption">Life studies, drawn at Hammersmith College of Art, in 1958.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/28 House watercolour.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/28 House watercolour.jpg" alt=""></a>
+                <a href="/img/28 House watercolour.jpg" data-lightbox="mygallery" data-title="“Soon be home” Watercolour 1978."><img src="/img/28 House watercolour.jpg" alt=""></a>
                 <p class="art-caption">“Soon be home” Watercolour 1978.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/29 Self portrait.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/29 Self portrait.jpg" alt=""></a>
+                <a href="/img/29 Self portrait.jpg" data-lightbox="mygallery" data-title="Mirror image self portrait drawn by the artist thirty-eight years ago in 1984."><img src="/img/29 Self portrait.jpg" alt=""></a>
                 <p class="art-caption">Mirror image self portrait drawn by the artist thirty-eight years ago in 1984.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/30 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/30 Life Drawing.jpg" alt=""></a>
+                <a href="/img/30 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawings taken from his student sketch pad, 1957-58."><img src="/img/30 Life Drawing.jpg" alt=""></a>
                 <p class="art-caption">Life drawings taken from his student sketch pad, 1957-58.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/31 Cutenhoe Road.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/31 Cutenhoe Road.jpg" alt=""></a>
+                <a href="/img/31 Cutenhoe Road.jpg" data-lightbox="mygallery" data-title="Cutenhoe Road, Luton. Watercolour 2001"><img src="/img/31 Cutenhoe Road.jpg" alt=""></a>
                 <p class="art-caption">Cutenhoe Road, Luton. Watercolour 2001</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/32 Daniel Dillon drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/32 Daniel Dillon drawing.jpg" alt=""></a>
+                <a href="/img/32 Daniel Dillon drawing.jpg" data-lightbox="mygallery" data-title="The artist, Bernard Dillon, aged four. Drawn by his Uncle, Daniel Dillon 1944."><img src="/img/32 Daniel Dillon drawing.jpg" alt=""></a>
                 <p class="art-caption">The artist, Bernard Dillon, aged four. Drawn by his Uncle, Daniel Dillon 1944.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/33 Umbilical detail.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/33 Umbilical detail.jpg" alt=""></a>
+                <a href="/img/33 Umbilical detail.jpg" data-lightbox="mygallery" data-title="Detail taken of larger oil painting, Umbilical Strangulation."><img src="/img/33 Umbilical detail.jpg" alt=""></a>
                 <p class="art-caption">Detail taken of larger oil painting, Umbilical Strangulation.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/34 Life Drawing.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/34 Life Drawing.jpg" alt=""></a>
+                <a href="/img/34 Life Drawing.jpg" data-lightbox="mygallery" data-title="Further Life Drawing completed at Lime Grove Art College, 1957-58"><img src="/img/34 Life Drawing.jpg" alt=""></a>
                 <p class="art-caption">Further Life Drawing completed at Lime Grove Art College, 1957-58</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/35 Ship painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/35 Ship painting.jpg" alt=""></a>
+                <a href="/img/35 Ship painting.jpg" data-lightbox="mygallery" data-title="“Operation Rescue” Oil on canvas, 30″ x 24″"><img src="/img/35 Ship painting.jpg" alt=""></a>
                 <p class="art-caption">“Operation Rescue” Oil on canvas, 30″ x 24″</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/36 Sunset painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/36 Sunset painting.jpg" alt=""></a>
+                <a href="/img/36 Sunset painting.jpg" data-lightbox="mygallery" data-title="“After the Storm” Oil on board, 36.5″ x 20.5″"><img src="/img/36 Sunset painting.jpg" alt=""></a>
                 <p class="art-caption">“After the Storm” Oil on board, 36.5″ x 20.5″</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/37 Young Glyn sketch.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/37 Young Glyn sketch.jpg" alt=""></a>
+                <a href="/img/37 Young Glyn sketch.jpg" data-lightbox="mygallery" data-title="Quick sketch of Dillon’s youngest son, Glyn. 1986."><img src="/img/37 Young Glyn sketch.jpg" alt=""></a>
                 <p class="art-caption">Quick sketch of Dillon’s youngest son, Glyn. 1986.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/38 Glyn House.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/38 Glyn House.jpg" alt=""></a>
+                <a href="/img/38 Glyn House.jpg" data-lightbox="mygallery" data-title="“The Edwardian Dream” Oil on Canvas, 30″ x 24″. 2012"><img src="/img/38 Glyn House.jpg" alt=""></a>
                 <p class="art-caption">“The Edwardian Dream” Oil on Canvas, 30″ x 24″. 2012</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/39 Luton painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/39 Luton painting.jpg" alt=""></a>
+                <a href="/img/39 Luton painting.jpg" data-lightbox="mygallery" data-title='"Luton&#39;s Personal Sacrifice, (near and far) by Bernard Francis Dillon. Oil on Board, 42" high.'><img src="/img/39 Luton painting.jpg" alt=""></a>
                 <p class="art-caption">"Luton's Personal Sacrifice, (near and far) by Bernard Francis Dillon. Oil on Board, 42" high.</p>
                 <p class="art-caption">The painting was exhibited in the Luton Museum's Annual Art Exhibition 2013 sponsored by the Murry Barford Trust. The Judges awarded it the 'Inspired by Luton' Prize.</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/40 Award presentation.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/40 Award presentation.jpg" alt=""></a>
+                <a href="/img/40 Award presentation.jpg" data-lightbox="mygallery" data-title="The Deputy Mayor of Luton, Councillor Zia, presenting 'The Inspired by Luton' Annual Art Award to Bernard Dillon"><img src="/img/40 Award presentation.jpg" alt=""></a>
                 <p class="art-caption">The Deputy Mayor of Luton, Councillor Zia, presenting 'The Inspired by Luton' Annual Art Award to Bernard Dillon</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/41 Kelvin Hopkins painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/41 Kelvin Hopkins painting.jpg" alt=""></a>
+                <a href="/img/41 Kelvin Hopkins painting.jpg" data-lightbox="mygallery" data-title='Portrait of Kelvin Hopkins MP. Oil on Canvas 30" x 24"'><img src="/img/41 Kelvin Hopkins painting.jpg" alt=""></a>
                 <p class="art-caption">Portrait of Kelvin Hopkins MP. Oil on Canvas 30" x 24"</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/42 Kelvin painting presentation.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/42 Kelvin painting presentation.jpg" alt=""></a>
+                <a href="/img/42 Kelvin painting presentation.jpg" data-lightbox="mygallery" data-title="Kelvin Hopkins MP receving his portrait, 29th March 2014"><img src="/img/42 Kelvin painting presentation.jpg" alt=""></a>
                 <p class="art-caption">Kelvin Hopkins MP receving his portrait, 29th March 2014</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/43 St Albans pub painting.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/43 St Albans pub painting.jpg" alt=""></a>
+                <a href="/img/43 St Albans pub painting.jpg" data-lightbox="mygallery" data-title='"St. Albans in a Bygone Era" by Bernard F. DIllon. Oil on Panel, 50cm x 40cm'><img src="/img/43 St Albans pub painting.jpg" alt=""></a>
                 <p class="art-caption">"St. Albans in a Bygone Era" by Bernard F. DIllon. Oil on Panel, 50cm x 40cm</p>
             </div>
             <div class="carousel__item">
-                <a href="/img/44 Bernie.jpg" data-lightbox="mygallery" data-title="Life drawing"><img src="/img/44 Bernie.jpg" alt=""></a>
+                <a href="/img/44 Bernie.jpg" data-lightbox="mygallery" data-title='"Bernie" Oil on panel, by Bernard Dillon (unfinished). 495mm x 400mm'><img src="/img/44 Bernie.jpg" alt=""></a>
                 <p class="art-caption">"Bernie" Oil on panel, by Bernard Dillon (unfinished). 495mm x 400mm</p>
             </div>
 
