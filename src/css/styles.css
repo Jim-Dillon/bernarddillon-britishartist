@@ -1678,8 +1678,11 @@ a {
 @media screen and (max-width: 950px) and (min-width: 700px) {
 
     .dropdown-header {
+        position: relative;
         width: 60px;
     }
+
+    
     
     .dropdown-icon {
         
@@ -1688,6 +1691,13 @@ a {
     .dropdown-image {
         width: 60px; 
         margin-bottom: 20px;  
+    }
+
+    .x-menu-image {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 0;
     }
 
     .top-banner {
@@ -1718,7 +1728,8 @@ a {
         background-color: #8499B1;
     }
 
-    .dropdown-header:hover ul {
+    .dropdown-header.open ul {
+        position: relative;
         display: block;
     }
 
@@ -1752,7 +1763,13 @@ a {
     
     .dropdown-image {
         width: 45px;
-       
+    }
+
+    .x-menu-image {
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 0;
     }
 
     .nav {
@@ -1780,7 +1797,8 @@ a {
         background-color: #8499B1;
     }
 
-    .dropdown-header:hover ul {
+    .dropdown-header.open ul {
+        position: relative;
         display: block;
     }
 
@@ -1805,10 +1823,12 @@ a {
 @media only screen and (max-width:450px) {
 
     .dropdown-header {
+        position: relative;
         width: 40px;
     }
 
-    .dropdown-header:hover ul {
+    .dropdown-header.open ul {
+        position: relative;
         display: block;
     }
 
@@ -1827,6 +1847,8 @@ a {
     .x-menu-image {
         width: 40px;
         height: 40px;
+        position: absolute;
+        left: 0;
     }
 
     .x-menu-image:hover {
@@ -1879,9 +1901,9 @@ a {
 
 }
 
-/* ANYTHING BIGGER THAN MOBILE */
+/* ANYTHING WITH A DROPDOWN BURGER */
 
-@media only screen and (min-width:451px) {
+@media only screen and (min-width:950px) {
 
     .x-menu-image {
         display: none;
