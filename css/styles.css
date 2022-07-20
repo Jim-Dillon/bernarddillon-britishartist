@@ -93,6 +93,18 @@ a {
     display: none;
 } */
 
+.x-icon {
+    display: none;
+}
+
+.open .x-icon {
+    display: block;
+}
+
+.open .dropdown-icon {
+    display: none;
+}
+
 .nav {
     height: 76px;
     background-color: #A5C4D4;
@@ -1832,13 +1844,7 @@ a {
         display: block;
     }
 
-    .dropdown-header:hover a img {
-        display: none;
-    }
-    
-    .dropdown-icon {
-    
-    }
+
     
     .dropdown-image {
         width: 40px; 
@@ -1851,9 +1857,7 @@ a {
         left: 0;
     }
 
-    .x-menu-image:hover {
-        display: none;
-    }
+
 
     .nav {
         display: none;
