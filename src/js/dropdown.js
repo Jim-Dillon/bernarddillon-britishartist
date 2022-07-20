@@ -1,8 +1,16 @@
-const addDropdown = () => {
-    const list = document.getElementsByClassName('dropdown-header').classList;
-    list.add('dropdown-header');
+const addDropdown = (e) => {
+    e.preventDefault();
+    const header = document.getElementsByClassName('dropdown-header');
+    if (header) {
+        header.classList.add('open');
+    }
 }
 
-const removeDropdown = () => {
-    document.getElementsByClassName('dropdown-header').classList.remove('dropdown-header');
+
+const removeDropdown = (e) => {
+    e.preventDefault();
+    const header = document.getElementsByClassName('dropdown-header');
+    if (header) {
+        header.classList.remove('open');
+    }
 }
