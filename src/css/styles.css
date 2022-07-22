@@ -1725,7 +1725,7 @@ a {
         list-style: none;
         display: none;
         position: absolute;
-        margin-top: 74px;
+        margin-top: 75px;
         margin-left: -140px;
         width: 200px;
         height: 300px;
@@ -1831,6 +1831,7 @@ a {
     .dropdown-header {
         position: relative;
         width: 0px;
+        padding-right: 20px;
     }
 
     .dropdown-header.open ul {
@@ -1865,7 +1866,7 @@ a {
         display: none;
         position: absolute;
         margin-top: 50px;
-        margin-left: -120px;
+        margin-left: -160px;
         width: 200px;
         height: 320px;
         padding-left: 10px;
