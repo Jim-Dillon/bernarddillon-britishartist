@@ -1,7 +1,5 @@
 window.addEventListener('load', (event) => {
 
-// const header = document.getElementsByClassName('dropdown-header');
-
 
 
 const addDropdown = (e) => {
@@ -25,7 +23,6 @@ const removeDropdown = (e) => {
         header.classList.remove('open');
     }
 }
-
 
 
 const closeButton = document.querySelector(".x-icon");
