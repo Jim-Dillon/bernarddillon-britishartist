@@ -15,8 +15,6 @@ h1 {
     font-size: 94px;
     color: black;
     text-align: center;
-    /* max-width: 900px; */
-    /* width: 100%; */
     margin: 0 auto;
     margin-top: 75px;
 }
@@ -51,10 +49,6 @@ a {
     text-decoration: none;
 }
 
-/* a:visited {
-    color: inherit;
-} */
-
 
 /* TOP BANNER */
 
@@ -81,10 +75,6 @@ a {
 .banner:visited {
     color: inherit;
 }
-
-/* .dropdown-image {
-    display: none;
-} */
 
 .x-icon {
     display: none;
@@ -254,8 +244,6 @@ a {
     margin-bottom: 68px;
 }
 
-
-
 .view-gallery-button-container {
     max-width: 184px;
     margin: 0 auto;
@@ -393,7 +381,6 @@ a {
 
 .carousel {
     overflow: hidden;
-    /* max-width: 600px; */
     max-width: 80%;
     height: 730px;
     position: relative;
@@ -453,13 +440,6 @@ a {
     height: 40px;
 }
 
-/* .carousel .carousel__actions button#carousel_button--prev {
-    margin-left: 20px;
-}
-
-.carousel .carousel__actions button#carousel_button--next {
-    margin-right: 20px;
-} */
 
 @keyframes fadeVisibility {
     0% {
@@ -471,17 +451,12 @@ a {
     }
 }
 
-/* .art-2__container {
-    height: 600px;
-    
-} */
 
 .art-caption {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
-    /* width: 420px; */
 }
 
 .caption-5 {
@@ -491,10 +466,6 @@ a {
 .caption-6 {
     margin-top: 0px;
 }
-
-/* .caption-25 {
-    margin-top: 0px;
-} */
 
 .life-drawing {
     height: 580px;
@@ -512,11 +483,9 @@ a {
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .about-page-title {
-    /* width: 864px; */
     width: 100%;
 }
 
@@ -676,10 +645,6 @@ a {
     border: 2px solid #0974ED;
 }
 
-/* .row3-photo {
-    width: 150px;
-} */
-
 .row3-caption {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -758,10 +723,6 @@ a {
 
 
 
-
-
-
-
 /* MEDIUM LAPTOP VIEW */
 
 @media screen and (max-width: 950px) and (min-width: 700px) {
@@ -825,10 +786,6 @@ a {
 
     .awards-section {
         margin-bottom: 80px;
-    }
-
-    .awards-title {
-        /* font-size: 70px; */
     }
 
     .awards-container {
@@ -916,10 +873,6 @@ a {
         padding-right: 10px;
         padding-top: 50px;
         display: initial;
-        
-        /* float: right; */
-        /* flex-direction: row-reverse; */
-        /* flex-direction: column-reverse; */
     }
 
     .home-image-container {
@@ -972,11 +925,6 @@ a {
 
     .awards-section {
         margin-bottom: 60px;
-    }
-
-    .awards-title {
-        /* font-size: 70px; */
-        /* margin-top: 60px; */
     }
 
     .awards-container {
@@ -1152,7 +1100,6 @@ a {
     .home__carousel {
         max-width: 95%;
         height: 250px;
-        /* height: inherit; */
     }
 
     .home__carousel .home__carousel__item {
@@ -1341,12 +1288,8 @@ a {
     
     .kurtis-caption {
         width: 80px;
-        /* height: 3rem; */
     }
 }
-
-
-
 
 
 
@@ -1383,7 +1326,6 @@ a {
     .row3-photo {
         width: 160px;
     }
-
 
     .steve-kids {
         display: initial; 
@@ -1447,7 +1389,6 @@ a {
     .row3-photo {
         width: 150px;
     }
-
 
     .steve-kids {
         display: initial; 
@@ -1665,8 +1606,6 @@ a {
 
 
 
-
-
 /* NAV BAR RESIZE */
 
 @media only screen and (min-width:951px) {
@@ -1687,12 +1626,6 @@ a {
         position: relative;
         width: 60px;
     }
-
-    
-    
-    .dropdown-icon {
-        
-    }
     
     .dropdown-image {
         width: 60px; 
@@ -1704,10 +1637,6 @@ a {
         height: 60px;
         position: absolute;
         left: 0;
-    }
-
-    .top-banner {
-        /* overflow: hidden; */
     }
 
     .nav {
@@ -1763,10 +1692,6 @@ a {
         position: relative;
     }
     
-    .dropdown-icon {
-    
-    }
-    
     .dropdown-image {
         width: 45px;
     }
@@ -1783,10 +1708,6 @@ a {
     }
 
     .nav-buttons {
-        /* display: initial;
-        height: 300px;
-        position: relative;
-        z-index: 3; */
         display: none;
     }
 
