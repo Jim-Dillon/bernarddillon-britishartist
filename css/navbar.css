@@ -1,0 +1,369 @@
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+    top: 0;
+    padding-top: 30px;
+    padding-left: 64px;
+    padding-right: 40px;
+    color: white;  
+    background-color: #0C1821;  
+}
+
+.banner a {
+    font-family: 'Cormorant', serif;
+    font-size: 59px;
+    width: 700px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner:visited {
+    color: inherit;
+}
+
+.x-icon {
+    display: none;
+}
+
+.open .x-icon {
+    display: block;
+}
+
+.open .dropdown-icon {
+    display: none;
+}
+
+.nav {
+    height: 76px;
+    background-color: #A5C4D4;
+}
+
+.nav-buttons {
+    float: right;
+    list-style: none;  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;  
+    margin-right: 44px;
+    height: 76px;
+}
+
+.nav-buttons li {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600; 
+    height: 76px;   
+}
+
+.nav-buttons li:hover {
+    border-bottom: 4px solid #0C1821;
+}
+
+.about-button {
+    padding: 25px 45px 27px;
+}
+
+.about-button-text {
+    text-decoration: none;
+    color: #0C1821; 
+}
+
+.about-button:hover {
+    border-bottom: 4px solid #0C1821;
+}
+
+.awards-button {
+    padding: 25px 45px 27px;
+}
+
+.awards-button-text {
+    text-decoration: none;
+    color: #0C1821;
+}
+
+.gallery-button {
+    padding: 25px 45px 27px;
+}
+
+.gallery-button-text {
+    text-decoration: none;
+    color: #0C1821;
+}
+
+.family-button {
+    padding: 25px 45px 27px 45px;
+    margin-right: -20px;
+}
+
+.family-button-text {
+    text-decoration: none;
+    color: #0C1821;
+}
+
+
+/* MOBILE DESIGN */
+
+@media only screen and (max-width:450px) {
+    .top-banner {
+        height: 70px;
+    }
+
+    .nav {
+        height: 50px;
+        display: none;
+    }
+
+    .top-banner {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .banner a {
+        font-size: 24px;
+        font-family: 'Cormorant', serif;
+    }
+
+    .nav-buttons {
+        height: 50px;
+        display: initial;
+        position: relative;
+        z-index: 3;
+    }
+
+    .nav-buttons li {
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+        height: 50px;
+    }
+
+    .dropdown-header {
+        position: relative;
+        width: 0px;
+        padding-right: 20px;
+    }
+
+    .dropdown-header.open ul {
+        position: relative;
+        display: block;
+    }
+
+    .dropdown-image {
+        width: 40px; 
+    }
+
+    .x-menu-image {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+    }
+
+    .dropdown-buttons {
+        list-style: none;
+        display: none;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -160px;
+        width: 200px;
+        height: 320px;
+        padding-left: 10px;
+        padding-top: 150px;
+        background-color: #8499B1;
+    }
+
+    .dropdown-buttons:active ul {
+        display: block;
+    }
+
+    .dropdown-buttons li {
+        height: 2.5rem;    
+    }
+
+    .dropdown-buttons li a:hover {
+        color: black;
+    }
+
+    .dropdown-buttons li a {
+        font-size: 14px;
+        padding: 10px 10px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+}
+
+
+/* BIGGER THAN MOBILE */
+
+@media screen and (max-width: 699px) and (min-width: 451px) {
+    .top-banner {
+        
+        padding-left: 35px;
+        padding-top: 20px;
+        height: 80px;
+    }
+
+    .banner a {
+        font-size: 30px;
+    } 
+
+    .dropdown-header {
+        width: 45px;
+        position: relative;
+    }
+    
+    .dropdown-image {
+        width: 45px;
+    }
+
+    .x-menu-image {
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-buttons {
+        display: none;
+    }
+
+    .dropdown-buttons {
+        list-style: none;
+        display: none;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: -140px;
+        width: 200px;
+        height: 300px;
+        padding-left: 10px;
+        padding-top: 130px;
+        background-color: #8499B1;
+    }
+
+    .dropdown-header.open ul {
+        position: relative;
+        display: block;
+    }
+
+    .dropdown-buttons li {
+        height: 2.5rem;    
+    }
+
+    .dropdown-buttons li a:hover {
+        color: black;
+    }
+
+    .dropdown-buttons li a {
+        font-size: 14px;
+        padding: 10px 10px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+}
+
+
+@media screen and (max-width: 950px) and (min-width: 700px) {
+    .top-banner {
+        padding-left: 40px;
+        padding-top: 25px;
+        height: 100px;
+    }
+
+    .banner a {
+        font-size: 40px;
+    }
+
+    .nav {
+        height: 65px;
+        display: none;
+    }
+
+    .nav-buttons {
+        height: 65px;
+        display: initial;
+        position: relative;
+        z-index: 3;
+    }
+
+    .nav-buttons li {
+        height: 55px;
+        font-size: 13px;
+        padding: 25px 27px 16px;
+    }
+
+    .dropdown-header {
+        position: relative;
+        width: 60px;
+    }
+    
+    .dropdown-image {
+        width: 60px; 
+        margin-bottom: 20px;  
+    }
+
+    .x-menu-image {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 0;
+    }
+
+    .dropdown-buttons {
+        list-style: none;
+        display: none;
+        position: absolute;
+        margin-top: 75px;
+        margin-left: -140px;
+        width: 200px;
+        height: 300px;
+        padding-left: 10px;
+        padding-top: 130px;
+        background-color: #8499B1;
+    }
+
+    .dropdown-header.open ul {
+        position: relative;
+        display: block;
+    }
+
+    .dropdown-buttons li {
+        height: 2.5rem;    
+    }
+
+    .dropdown-buttons li a:hover {
+        color: black;
+    }
+
+    .dropdown-buttons li a {
+        font-size: 14px;
+        padding: 10px 10px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width:951px) {
+
+    .x-menu-image {
+        display: none;
+    }
+
+    .dropdown-image {
+        display: none;
+    }
+
+    .dropdown-buttons {
+        display: none;
+    } 
+}
+
+

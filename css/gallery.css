@@ -1,0 +1,236 @@
+/* Content section */
+
+.gallery-page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.gallery-container {
+    margin-top: 77px;
+}
+
+.gallery-image-container {
+    max-width: 343px;
+    margin: 0 auto;
+    margin-bottom: 91px;
+}
+
+.gallery-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 894px;
+    margin: 0 auto; 
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 35px;
+}
+
+/* carousel */
+
+.carousel {
+    overflow: hidden;
+    max-width: 80%;
+    height: 730px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel__track-container {
+    height: 100%;
+    max-width: 100%;
+}
+
+.carousel__item {
+    margin: 0 auto;
+    max-width: 430px;
+    height: 580px;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+    display: none;
+}
+
+.carousel .carousel__item img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    height: 580px;
+    transition: 1s;
+}
+
+.carousel .carousel__item img:hover {
+    filter: grayscale(52%);
+    transform: scale(1.05);
+}
+
+.carousel .carousel__item--visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+}
+
+.carousel .carousel__actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.carousel .carousel__actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: opacity linear;
+    }
+}
+
+
+.art-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.caption-5 {
+    margin-top: 0px;
+}
+
+.caption-6 {
+    margin-top: 0px;
+}
+
+.life-drawing {
+    height: 580px;
+}
+
+.bishop-painting {
+    height: 580;
+}
+
+/* MOBILE DESIGN */
+
+@media only screen and (max-width:450px) {
+    .gallery-container {
+        margin-top: 45px;
+    }
+
+    .gallery-image-container {
+        margin-bottom: 50px;
+        width: 315px;
+    }
+
+    .gallery-main-image {
+        width: 315px;
+    }
+
+    .gallery-content {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .carousel {
+        height: 834px;
+    }
+
+    .carousel .carousel__item {
+        width: 210px;
+    }
+
+    .carousel .carousel__item img {
+        max-width: 260px;
+    }
+
+    .carousel .carousel__actions {
+        top: 37%;
+    }
+
+    .caption-25 {
+        margin-top: 0px;
+    }
+}
+
+/* BIGGER THAN MOBILE */
+
+@media screen and (max-width: 699px) and (min-width: 451px) {
+    .gallery-page-container {
+        margin-bottom: 60px;
+    }
+
+    .gallery-container {
+        margin-top: 60px;
+    }
+
+    .gallery-image-container {
+        margin-bottom: 60px;
+    }
+
+    .gallery-image-container {
+        width: 345px;
+    }
+
+    .gallery-main-image {
+        width: 345px;
+    }
+
+    .gallery-content {
+        margin-bottom: 40px;
+    }
+
+    .carousel {
+        height: 788px;
+    }
+
+    .carousel .carousel__item {
+        width: 260px;
+    }
+
+    .carousel .carousel__item img {
+        max-width: 260px;
+    }
+
+    .carousel .carousel__actions {
+        top: 37%;
+    }
+}
+
+
+@media screen and (max-width: 950px) and (min-width: 700px) {
+    .gallery-page-container {
+        margin-bottom: 60px;
+    }
+
+    .gallery-container {
+        margin-top: 60px;
+    }
+
+    .gallery-image-container {
+        margin-bottom: 70px;
+    }
+
+    .gallery-content {
+        margin-bottom: 40px;
+    }
+
+    .carousel .carousel__actions {
+        top: 40%;
+    }
+}

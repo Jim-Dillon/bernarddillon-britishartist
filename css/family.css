@@ -1,0 +1,617 @@
+.family-page-container {
+    height: 1640px;
+    max-width: 1350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.family-row1-container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.bern-mu-photo {
+    width: 300px;
+}
+
+.bern-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 320px;
+}
+
+.family-row2-section {
+    margin: 0 auto;
+    max-width: 805px;
+    margin-top: 30px;
+}
+
+.family-row2-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 805px;
+    margin-right: 10px;  
+}
+
+.row2-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 165px;
+    margin-bottom: 0px;
+} 
+
+.tree-steve {
+    border: 2px solid #30D5C8;
+    padding: 18px 18px;
+}
+
+.steve-caption {
+    color: #30D5C8;
+}
+
+.tree-julie {
+    border: 2px solid #0D3470;
+    padding: 18px 18px;
+}
+
+.julie-caption {
+    color: #0D3470;
+}
+
+.tree-glyn {
+    border: 2px solid #0974ED;
+    padding: 18px 18px;
+}
+
+.glyn-caption {
+    color: #0974ED;
+}
+
+.row2-photo {
+    width: 220px;
+}
+
+.family-row3-container {
+    display: flex;
+    justify-content: space-between;   
+}  
+
+.steve-kids {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.julie-kids {
+    display: flex;
+    justify-content: space-between;
+}
+
+.glyn-kids {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tree-ant {
+    padding: 10px 10px;
+    margin-right: 5px;
+    border: 2px solid #30D5C8;
+}
+
+.tree-mark {
+    padding: 10px 10px;
+    margin-right: 5px;
+    border: 2px solid #30D5C8;
+}
+
+.tree-jamie {
+    padding: 10px 10px;
+    margin-right: 8px;
+    border: 2px solid #30D5C8;
+}
+
+.tree-emily {
+    padding: 10px 10px;
+    margin-right: 5px;
+    margin-left: 7px;
+    border: 2px solid #0D3470;
+}
+
+.tree-dan {
+    padding: 10px 10px;
+    margin-right: 4px;
+    margin-left: 0px;
+    border: 2px solid #0D3470;
+}
+
+.tree-ro {
+    padding: 10px 10px;
+    margin-right: 3px;
+    margin-left: 7px;
+    border: 2px solid #0974ED;
+}
+
+.tree-hal {
+    padding: 10px 10px;
+    margin-left: 3px;
+    border: 2px solid #0974ED;
+}
+
+.row3-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ant-caption {
+    width: 150px;
+    color: #30D5C8;
+}
+
+.mark-caption {
+    width: 130px;
+    color: #30D5C8;
+}
+
+.jamie-caption {
+    width: 120px;
+    color: #30D5C8;
+}
+
+.emily-caption {
+    width: 150px;
+    color: #1B2A41;
+}
+
+.dan-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 150px;
+    color: #1B2A41;
+}
+
+.ro-caption {
+    width: 140px;
+    color: #2273cf;
+}
+
+.hal-caption {
+    width: 140px;
+    color: #2273cf;
+}
+
+.family-row4-section {
+    display: flex;
+    justify-content:flex-start; 
+    max-width: 400px;
+}
+
+.ant-kids-container {
+    margin-right: 97px;
+    color: #5f7083;
+}
+
+.mark-kids-container {
+    color: #8098b4;
+}
+
+.row4-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 95px;
+}
+
+.row4-caption-parent {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #30D5C8;
+}
+
+
+/* MOBILE DESIGN */
+
+@media only screen and (max-width:450px) {
+    .family-row1-container, .bern-mu-photo, .bern-caption {
+        width: 270px;
+    }
+
+    .bern-caption {
+        font-size: 14px;
+    }
+
+    .tree-steve, .tree-julie, .tree-glyn {
+        padding: 10px;
+        max-width: 105px;
+    }
+
+    .tree-julie {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .row2-photo {
+        width: 80px;
+    }
+
+    .row2-caption {
+        width: 80px;
+        font-size: 11px;
+    }
+
+    
+    .tree-ant, .tree-mark, .tree-jamie, .tree-emily, .tree-dan, .tree-ro, .tree-hal {
+        padding: 10px;
+        max-width: 103px;
+        margin-right: 0px;
+    }
+
+    .tree-ant, .tree-mark, .tree-jamie {
+        margin-bottom: 10px;
+    }
+
+    .tree-dan {
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+
+    .tree-hal {
+        margin-top: 10px;
+        margin-left: 7px;
+    }
+
+    .steve-kids {
+        display: initial; 
+    }
+    
+    .julie-kids {
+        display: initial;
+        
+    }
+    
+    .glyn-kids {
+        display: initial;
+    }
+
+    .row3-photo {
+        width: 80px;
+        margin-right: 0px;
+    }  
+    
+    .row3-caption, .ant-caption, .dan-caption {
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .ant-kids-container {
+        margin-right: 10px;
+    }
+
+    .row4-caption-parent {
+        font-size: 13px;
+    }
+
+    .row4-caption {
+        font-size: 11px;
+        width: 80px;
+    }   
+
+    .mark-kids-container {
+        width: 80px;
+    }
+    
+    .kurtis-caption {
+        width: 80px;
+    }
+}
+
+
+/* BIGGER THAN MOBILE */
+
+@media screen and (max-width: 549px) and (min-width: 451px) {
+    .family-page-container {
+        height: 1650px;
+    }
+
+    .family-row1-container {
+        width: 270px;
+    }
+
+    .bern-caption {
+        font-size: 14px;
+    }
+
+    .bern-mu-photo {
+        width: 270px;
+    }
+
+    .family-row2-container {
+        margin-right: 0px;
+    }
+
+    .tree-steve, .tree-julie, .tree-glyn {
+        max-width: 134px;
+    }
+
+    .row2-photo {
+        width: 100px;
+    }
+
+    .row2-caption {
+        font-size: 12px;
+        width: 110px;
+    }
+
+    .family-row3-section {
+        max-width: 780px;
+        margin: 0 auto; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tree-ant, .tree-mark, .tree-jamie, .tree-emily, .tree-dan, .tree-ro, .tree-hal {
+        padding: 10px;
+        max-width: 115px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .tree-dan {
+        margin-left: 7px;
+    }
+
+    .tree-hal {
+        margin-left: 7px;
+    }
+
+    .row3-photo {
+        width: 90px;
+    }
+
+    .row3-caption {
+        font-size: 10px;
+        width: 98px;
+    }
+
+    .mark-caption, .jamie-caption {
+        width: 85px;
+    }
+
+    .steve-kids {
+        display: initial; 
+    }
+    
+    .julie-kids {
+        display: initial;  
+    }
+    
+    .glyn-kids {
+        display: initial;
+    }
+
+    .family-row4-section {
+        margin-left: 20px;
+    }
+
+    .ant-kids-container {
+        margin-right: 45px;
+    }
+
+    .row4-caption-parent, .row4-caption {
+        font-size: 11px;
+        width: 78px;
+    }
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 550px) {
+    .family-page-container {
+        height: 1840px;
+    }
+
+    .family-row1-container {
+        width: 270px;
+    }
+
+    .bern-caption {
+        font-size: 14px;
+    }
+
+    .bern-mu-photo {
+        width: 270px;
+    }
+
+    .family-row2-container {
+        margin-right: 0px;
+    }
+
+    .tree-steve, .tree-julie, .tree-glyn {
+        max-width: 164px;
+    }
+
+    .row2-photo {
+        width: 125px;
+    }
+
+    .row2-caption {
+        font-size: 12px;
+        width: 110px;
+    }
+
+    .family-row3-section {
+        max-width: 780px;
+        margin: 0 auto; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tree-ant, .tree-mark, .tree-jamie, .tree-emily, .tree-dan, .tree-ro, .tree-hal {
+        padding: 15px;
+        max-width: 150px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .tree-dan {
+        margin-left: 7px;
+    }
+
+    .tree-hal {
+        margin-left: 7px;
+    }
+
+    .row3-photo {
+        width: 120px;
+    }
+
+    .row3-caption {
+        font-size: 12px;
+        width: 120px;
+    }
+
+    .mark-caption, .jamie-caption {
+        width: 105px;
+    }
+
+    .steve-kids {
+        display: initial; 
+    }
+    
+    .julie-kids {
+        display: initial;  
+    }
+    
+    .glyn-kids {
+        display: initial;
+    }
+
+    .family-row4-section {
+        margin-left: 20px;
+    }
+
+    .ant-kids-container {
+        margin-right: 70px;
+    }
+
+    .row4-caption-parent, .row4-caption {
+        font-size: 12px;
+        width: 80px;
+    }
+}
+
+
+@media screen and (max-width: 998px) and (min-width: 700px) {
+    .family-page-container {
+        height: 2100px;
+    }
+
+    .family-row2-container {
+        margin-right: 0px;
+    }
+
+    .tree-steve, .tree-julie, .tree-glyn {
+        max-width: 210px;
+    }
+
+    .row2-photo {
+        width: 170px;
+    }
+
+    .family-row3-section {
+        max-width: 780px;
+        margin: 0 auto; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tree-ant, .tree-mark, .tree-jamie, .tree-emily, .tree-dan, .tree-ro, .tree-hal {
+        padding: 15px;
+        max-width: 180px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .tree-dan {
+        margin-left: 7px;
+    }
+
+    .tree-hal {
+        margin-left: 7px;
+    }
+
+    .row3-photo {
+        width: 150px;
+    }
+
+    .steve-kids {
+        display: initial; 
+    }
+    
+    .julie-kids {
+        display: initial;  
+    }
+    
+    .glyn-kids {
+        display: initial;
+    }
+
+    .family-row4-section {
+        margin-left: 70px;
+    }
+}
+
+
+@media screen and (max-width: 1290px) and (min-width: 999px) {
+    .family-page-container {
+        height: 2200px;
+    }
+
+    .family-row3-section {
+        max-width: 780px;
+        margin: 0 auto; 
+    }
+
+    .tree-ant, .tree-mark, .tree-jamie, .tree-emily, .tree-dan, .tree-ro, .tree-hal {
+        padding: 15px;
+        max-width: 193px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .tree-dan {
+        margin-left: 7px;
+    }
+
+    .tree-hal {
+        margin-left: 7px;
+    }
+
+    .row3-photo {
+        width: 160px;
+    }
+
+    .steve-kids {
+        display: initial; 
+    }
+    
+    .julie-kids {
+        display: initial;  
+    }
+    
+    .glyn-kids {
+        display: initial;
+    }
+
+    .family-row4-section {
+        margin-left: 120px;
+    }
+}
