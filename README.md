@@ -2,4 +2,12 @@
 
 A website to showcase the artwork of legendary British artist, Bernard Francis Dillon.
 
-This site uses the static site generator, [Eleventy](https://www.11ty.dev/), to create templates for the pages. It is hosted on GitHub pages.
+## Website Features 
+
+1. Uses Eleventy (https://www.11ty.dev/) as a static site generator.
+2. Navbar with clickable dropdown menu on resize  
+3. Multiple artwork carousels
+4. Device optimisation  
+
+
+
