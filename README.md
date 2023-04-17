@@ -11,5 +11,7 @@ A website to showcase the artwork of legendary British artist, Bernard Francis D
 5. Device optimisation  
 6. Images formatted in Figma
 
+## Usage 
+
 
 
