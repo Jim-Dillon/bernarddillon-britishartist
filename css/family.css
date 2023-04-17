@@ -220,6 +220,10 @@
 /* MOBILE DESIGN */
 
 @media only screen and (max-width:450px) {
+    .family-page-container {
+        height: 1300px;
+    }
+
     .family-row1-container, .bern-mu-photo, .bern-caption {
         width: 270px;
     }
@@ -319,7 +323,7 @@
 
 @media screen and (max-width: 549px) and (min-width: 451px) {
     .family-page-container {
-        height: 1650px;
+        height: 1330px;
     }
 
     .family-row1-container {
@@ -415,7 +419,7 @@
 
 @media screen and (max-width: 699px) and (min-width: 550px) {
     .family-page-container {
-        height: 1840px;
+        height: 1420px;
     }
 
     .family-row1-container {
@@ -511,7 +515,7 @@
 
 @media screen and (max-width: 998px) and (min-width: 700px) {
     .family-page-container {
-        height: 2100px;
+        height: 1622px;
     }
 
     .family-row2-container {
@@ -572,7 +576,7 @@
 
 @media screen and (max-width: 1290px) and (min-width: 999px) {
     .family-page-container {
-        height: 2200px;
+        height: 1700px;
     }
 
     .family-row3-section {
