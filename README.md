@@ -13,5 +13,8 @@ A website to showcase the artwork of legendary British artist, Bernard Francis D
 
 ## Usage 
 
-
+1. Clone this repo
+2. Run npm install
+3. Start the site locally by running npm start
+4. Visit http://localhost:8080/  
 
